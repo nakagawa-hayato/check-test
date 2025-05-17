@@ -1,0 +1,174 @@
+.header {
+    background: #fff;
+    font-family: "Inika", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1512px;
+    text-align: center;
+    border: 1px solid #e0dfde;
+}
+
+.header__logo {
+    color: #8b7969;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+h2 {
+    font-family: "Inika", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 20px;
+    color: #8b7969;
+}
+
+.contact-form__content {
+    margin: 0 auto;
+    padding: 20px 15px;
+    max-width: 1512px;
+}
+
+.contact-form__heading {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.form {
+    background: #fff;
+}
+
+.form__group {
+    max-width: 972px;
+    display: flex;
+    margin: 0 auto 15px;
+}
+
+.form__group-title {
+    width: 30%;
+    text-align: left;
+    padding-top: 10px;
+    color: #8b7969;
+}
+
+.form__label--required {
+    margin-left: 5px;
+    padding: 4px 6px;
+    border-radius: 3px;
+    background: #fafafa;
+    color: #8b7969;
+}
+
+.form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+}
+
+.form__group-content {
+    width: 70%;
+}
+
+.form__input--name,
+.form__input--tel,
+.form__input--text input,
+.form__item-select {
+    height: 40px;
+    color: #8b7969;
+}
+
+.form__input--name,
+.form__input--tel {
+    display: flex;
+    gap: 10px;
+}
+
+.form__input--name input,
+.form__input--tel input {
+    flex: 1;
+}
+
+.form__input--radio {
+    height: 30px;
+    padding-top: 10px;
+}
+
+.form__input--radio label {
+    margin-right: 30px;
+    color: #8b7969;
+}
+
+.form__input--radio input {
+    appearance: none;
+    margin-right: 5px;
+    height: 14px;
+    width: 14px;
+    border: 1px solid #8b7969;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.form__input--radio input:checked {
+    background-color: #8b7969;
+}
+
+.form__input--name input,
+.form__input--tel input,
+.form__input--text input,
+.form__input--textarea textarea {
+    width: 100%;
+    color: #8b7969;
+    background: #f4f4f4;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 3px;
+}
+
+.form__input--name input,
+.form__input--text input {
+    padding-left: 20px;
+}
+
+.form__input--tel input {
+    text-align: center;
+}
+
+.form__item-select {
+    width: 60%;
+    color: #beb1a6;
+    background: #f4f4f4;
+    border: none;
+    border-radius: 3px;
+    appearance: none;
+    padding-right: 30px;
+    background-image: url("data:image/svg+xml;utf8,<svg fill='%238b7969' height='16' viewBox='0 0 24 24' width='16' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 60px 60px;
+}
+
+.form__input--textarea textarea {
+    height: 180px;
+    padding: 20px;
+    color: #beb1a6;
+}
+
+.form__button {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 10%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background: #8b7969;
+    color: #fff;
+    cursor: pointer;
+}
